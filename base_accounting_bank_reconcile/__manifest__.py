@@ -21,7 +21,7 @@
 #############################################################################
 
 {
-    'name': 'Odoo 15 Full Accounting Kit',
+    'name': 'Odoo 15 Bank Reconciliation Widget',
     'version': '15.0.2.2.4',
     'category': 'Accounting',
     'live_test_url': 'https://www.youtube.com/watch?v=peAp2Tx_XIs',
@@ -35,7 +35,7 @@
     'website': "https://www.cybrosys.com",
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
-    'depends': ['base', 'account', 'sale', 'account_check_printing', 'base_account_budget'],
+    'depends': ['base', 'account', 'sale'],
     'data': [
         'views/payment_matching.xml',
     ],
@@ -55,7 +55,7 @@
         ],
     },
     'license': 'LGPL-3',
-    'images': ['static/description/banner.gif'],
+    # 'images': ['static/description/banner.gif'],
     'installable': True,
     'auto_install': False,
     'application': True,

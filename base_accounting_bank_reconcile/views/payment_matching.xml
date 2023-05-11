@@ -32,4 +32,16 @@
                 </xpath>
             </field>
   </record>
+  <record id="account_view_bank_statement_form_reconciliation" model="ir.ui.view">
+            <field name="name">account.bank.statement.form.reconciliation</field>
+            <field name="model">account.bank.statement</field>
+            <field name="inherit_id" ref="account.view_bank_statement_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='button_validate_or_action']" position="after">
+                     <button name="action_bank_reconcile_bank_statements" string="Reconcile" type="object"
+                            groups="account.group_account_user" class="oe_highlight"
+                            attrs="{'invisible': ['|', '|', ('all_lines_reconciled', '=', True), ('line_ids','=',[]), ('state', '!=', 'posted')]}"/>
+                </xpath>
+            </field>
+  </record>
 </odoo>
