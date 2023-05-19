@@ -1,0 +1,837 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_accounting_bank_reconcile
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-19 05:34+0000\n"
+"PO-Revision-Date: 2023-05-19 05:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: base_accounting_bank_reconcile
+#: code:addons/base_accounting_bank_reconcile/models/payment_matching.py:0
+#, python-format
+msgid "A reconciliation must involve at least 2 move lines."
+msgstr "Una conciñiación debe contener al menos 2 lineas"
+
+#. module: base_accounting_bank_reconcile
+#: code:addons/base_accounting_bank_reconcile/models/payment_matching.py:0
+#: code:addons/base_accounting_bank_reconcile/models/payment_matching.py:0
+#, python-format
+msgid "A selected move line was already reconciled."
+msgstr "Uno de los apuntes seleccionados ya se encuentra conciliado"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/js/payment_render.js:0
+#: code:addons/base_accounting_bank_reconcile/static/src/js/payment_render.js:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Account"
+msgstr "Cuenta contable"
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model,name:base_accounting_bank_reconcile.model_account_reconciliation_widget
+msgid "Account Reconciliation widget"
+msgstr "Asistente de conciliación"
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model.fields,field_description:base_accounting_bank_reconcile.field_account_bank_statement__accounting_date
+msgid "Accounting Date"
+msgstr "Fecha contable"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Aged Payable"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Aged Receivable"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid ""
+"All invoices and payments have been matched, your accounts' balances are "
+"clean."
+msgstr "Todas las facturas y pagos fueron enlazadas, el balance de sus cuentas esta completo"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Amount"
+msgstr "Monto"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Analytic Acc."
+msgstr "Cuenta analítica"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Analytic Tags."
+msgstr "Etiquetas analíticas"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "BANK AND CASH BALANCE"
+msgstr "Balance de banco y efectivo"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/js/payment_matching.js:0
+#, python-format
+msgid "Bank Reconciliation"
+msgstr "Conciliación bancaria"
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model.fields,field_description:base_accounting_bank_reconcile.field_res_company__account_bank_reconciliation_start
+msgid "Bank Reconciliation Threshold"
+msgstr "Umbral de conciliación bancaria"
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model,name:base_accounting_bank_reconcile.model_account_bank_statement
+msgid "Bank Statement"
+msgstr "Extracto bancario"
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model,name:base_accounting_bank_reconcile.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "Línea de extracto bancario"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Check all"
+msgstr "Marcar todos"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Check that you have no bank statement lines to"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Choose counterpart or Create Write-off"
+msgstr "Elegir o crear contrapartida"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Close statement"
+msgstr "Cerrar extracto"
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model,name:base_accounting_bank_reconcile.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Congrats, you're all done!"
+msgstr "Felicitaciones, ha terminado!"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Create a counterpart"
+msgstr "Crear contrapartida"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Create model"
+msgstr "Crear modelo"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Customer Invoice"
+msgstr "Factura de cliente"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Customer/Vendor Matching"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Dashboard"
+msgstr "Tablero"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Date"
+msgstr "Fecha"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Description"
+msgstr "Descripción"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Due Date"
+msgstr "Fecha de vencimiento"
+
+#. module: base_accounting_bank_reconcile
+#: code:addons/base_accounting_bank_reconcile/models/payment_matching.py:0
+#, python-format
+msgid "Either pass both debit and credit or none."
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "External link"
+msgstr "Link externo"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Filter on account, label, partner, amount,..."
+msgstr "Filtrar por cuenta, etiqueta, contacto, monto..."
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "From now on, you may want to:"
+msgstr "Desde ahora, puede que quiera:"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Go to bank statement(s)"
+msgstr "Ir a extractos bancarios"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Good Job!"
+msgstr "Buen trabajo!"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "INVOICES"
+msgstr "FACTURAS"
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model.fields,help:base_accounting_bank_reconcile.field_account_bank_statement__accounting_date
+msgid ""
+"If set, the accounting entries created during the bank statement reconciliation process will be created at this date.\n"
+"This is useful if the accounting period in which the entries should normally be booked is already closed."
+msgstr "Si se establece este campo, las entradas durante la conciliacion bancaria se crearán en ésta fecha.\nEsto es util si el período contable en el cual se deberian registrar los asientos está cerrado"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Income/Expense"
+msgstr "Ingreso/Gasto"
+
+#. module: base_accounting_bank_reconcile
+#: code:addons/base_accounting_bank_reconcile/models/payment_matching.py:0
+#, python-format
+msgid ""
+"It is mandatory to specify an account and a journal to create a write-off."
+msgstr "Es obligatorio establecer una cuenta y un diario para crear una contrapartida."
+
+#. module: base_accounting_bank_reconcile
+#: model_terms:ir.ui.view,arch_db:base_accounting_bank_reconcile.payment_matching_view
+msgid "Items"
+msgstr "Items"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: model:ir.model,name:base_accounting_bank_reconcile.model_account_journal
+#, python-format
+msgid "Journal"
+msgstr "Diario"
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model.fields,field_description:base_accounting_bank_reconcile.field_account_bank_statement_line__move_name
+msgid "Journal Entry Name"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model,name:base_accounting_bank_reconcile.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: base_accounting_bank_reconcile
+#: code:addons/base_accounting_bank_reconcile/models/payment_matching.py:0
+#, python-format
+msgid "Journal Items"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/js/payment_matching.js:0
+#, python-format
+msgid "Journal Items to Reconcile"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/js/payment_render.js:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Label"
+msgstr "Etiqueta"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Last Month"
+msgstr "Último mes"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Last Reconciliation:"
+msgstr "Ultima conciliación:"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Last Year"
+msgstr "Último año"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Load more"
+msgstr "Cargar más"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Load more... ("
+msgstr "Cargar más...("
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Manual Operations"
+msgstr "Operaciones manuales"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Match with entries that are not from receivable/payable accounts"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Miscellaneous Matching"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Modify models"
+msgstr "Modificar modelos"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Net Profit or Loss"
+msgstr "Ganancia o Pérdida neta"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "New"
+msgstr "Nuevo"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Note"
+msgstr "Nota"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Nothing to do!"
+msgstr "Nada para hacer!"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/js/payment_model.js:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Open balance"
+msgstr "Abrir balance"
+
+#. module: base_accounting_bank_reconcile
+#: code:addons/base_accounting_bank_reconcile/models/payment_matching.py:0
+#, python-format
+msgid ""
+"Operation not allowed. Since your statement line already received a number "
+"(%s), you cannot reconcile it entirely with existing journal entries "
+"otherwise it would make a gap in the numbering. You should book an entry and"
+" make a regular revert of it in case you want to cancel it."
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Partner"
+msgstr "Contacto"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Pay your"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#: model_terms:ir.ui.view,arch_db:base_accounting_bank_reconcile.matching_account_payment
+msgid "Payment Matching"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model,name:base_accounting_bank_reconcile.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: base_accounting_bank_reconcile
+#: model_terms:ir.ui.view,arch_db:base_accounting_bank_reconcile.payment_matching_view
+msgid "Payments Matching"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#: code:addons/base_accounting_bank_reconcile/models/account_payment.py:0
+#, python-format
+msgid "Payments without a customer can't be matched"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Presets config"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: model_terms:ir.ui.view,arch_db:base_accounting_bank_reconcile.account_view_bank_statement_form_reconciliation
+#: model_terms:ir.ui.view,arch_db:base_accounting_bank_reconcile.payment_matching_view
+#, python-format
+msgid "Reconcile"
+msgstr "Conciliar"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Ref"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Residual"
+msgstr "Saldo"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Save and New"
+msgstr "Guardar y nuevo"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/js/payment_render.js:0
+#, python-format
+msgid "Select Partner"
+msgstr "Elegir contacto"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Select a partner or choose a counterpart"
+msgstr "Elija un contacto o seleccione una contrapartida"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Settings"
+msgstr "Ajustes"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Skill Level: 50%"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Skip"
+msgstr "Omitir"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/js/payment_render.js:0
+#, python-format
+msgid "Some fields are undefined"
+msgstr "Algunos campos no están establecidos"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Supplier Invoice"
+msgstr "Factura de proveedor"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "TOP 10 CUSTOMERS"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Tax Included in Price"
+msgstr "Impuesto incluido en el precio"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Taxes"
+msgstr "Impuestos"
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model.fields,help:base_accounting_bank_reconcile.field_account_bank_statement_line__move_name
+msgid ""
+"Technical field holding the number given to the journal entry, automatically"
+" set when the statement line is reconciled then stored to set the same "
+"number again if the line is cancelled, set to draft and re-processed again."
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "That's on average"
+msgstr "Eso es en promedio"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/js/payment_model.js:0
+#, python-format
+msgid "The amount %s is not a valid partial amount"
+msgstr "El importe %s no es un importe parcial válido"
+
+#. module: base_accounting_bank_reconcile
+#: model:ir.model.fields,help:base_accounting_bank_reconcile.field_res_company__account_bank_reconciliation_start
+msgid ""
+"The bank reconciliation widget won't ask to reconcile payments older than this date.\n"
+"                                                                                                           This is useful if you install accounting after having used invoicing for some time and\n"
+"                                                                                                           don't want to reconcile all the past payments with bank statements."
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "There is nothing to reconcile."
+msgstr "No hay elementos para conciliar"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "This Month"
+msgstr "Éste mes"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "This Year"
+msgstr "Éste año"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid ""
+"This page displays all the bank transactions that are to be reconciled and "
+"provides with a neat interface to do so."
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "This payment is registered but not reconciled."
+msgstr "Éste pago está registrado pero no conciliado."
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "To Check"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "To speed up reconciliation, define"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Total Expenses"
+msgstr "Gastos totales"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Total Income"
+msgstr "Ingreso total"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Transaction"
+msgstr "Transacción"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/template.xml:0
+#, python-format
+msgid "Unreconciled items"
+msgstr "Items sin conciliar"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Validate"
+msgstr "Validar"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Verify"
+msgstr "Verificar"
+
+#. module: base_accounting_bank_reconcile
+#: code:addons/base_accounting_bank_reconcile/models/payment_matching.py:0
+#: code:addons/base_accounting_bank_reconcile/models/payment_matching.py:0
+#, python-format
+msgid "Write-Off"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Writeoff Date"
+msgstr ""
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "You reconciled"
+msgstr "Concilió"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "and follow-up customers"
+msgstr "y seguimiento de clientes"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "have been reconciled automatically."
+msgstr "fueron conciliadas automaticamente."
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "reconcile"
+msgstr "conciliar"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "reconciliation models"
+msgstr "modelos de conciliación"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "remaining)"
+msgstr "pendiente)"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "seconds per transaction."
+msgstr "segundos por transacción."
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "statement lines"
+msgstr "lineas de extracto bancario"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "transactions in"
+msgstr "transacciones en"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "unpaid invoices"
+msgstr "facturas impagas"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "unreconciled entries"
+msgstr "entradas sin conciliar"
+
+#. module: base_accounting_bank_reconcile
+#. openerp-web
+#: code:addons/base_accounting_bank_reconcile/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "vendor bills"
+msgstr "facturas de proveedor"
